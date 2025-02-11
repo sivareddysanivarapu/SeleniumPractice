@@ -74,6 +74,9 @@
 					<suiteXmlFiles>
 						<suiteXmlFile>testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
+					<systemPropertyVariables>
+					<Parameter1>${TestParameter}</Parameter1>
+					</systemPropertyVariables>
 				</configuration>
 			</plugin>
 			
