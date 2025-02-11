@@ -16,8 +16,9 @@
 		<parameter name="browser_version" value="latest"/>
 
 		 <classes>
-			<!-- <class name="com.learnautomation.testcases.LoginTestWithPOMWithFactory"/> -->
-			<class name="com.learnautomation.testing.*"/>
+			<class name="com.learnautomation.testcases.Sample"/>
+			<!--  <class name="com.learnautomation.testing.*"/> -->
+			<!--  <class name="com.learnautomation.testcases.LoginTestWithPOMWithFactory"/> -->
 		</classes> 
 	</test> 
 	
@@ -30,7 +31,7 @@
 		<parameter name="browser_version" value="latest"/>
 
 		<classes>
-			<class name="com.learnautomation.testcases.LoginTestWithPOMWithFactory"/>
+			<!--  <class name="com.learnautomation.testcases.LoginTestWithPOMWithFactory"/> -->
 		</classes>
 	</test> 
 	
