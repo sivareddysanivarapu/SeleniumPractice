@@ -15,6 +15,7 @@
 		<parameter name="browser" value="Chrome"/>
 		<parameter name="browser_version" value="latest"/>
 
+		
 		 <classes>
 			<class name="com.learnautomation.testcases.Sample"/>
 			<!--  <class name="com.learnautomation.testing.*"/> -->
