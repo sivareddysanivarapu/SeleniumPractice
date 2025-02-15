@@ -1,0 +1,33 @@
+pipeline {
+    agent any
+    stages {
+        stage('Stage 1') {
+            steps {
+                echo 'This is Stage 1'
+            }
+        }
+        stage('Stage 2') {
+            steps {
+                script {
+                    // Simulate a failure
+                    sh 'exit 1'
+                }
+            }
+            post {
+                failure {
+                    echo 'Stage 2 failed, but we will continue the pipeline.'
+                }
+            }
+        }
+        stage('Stage 3') {
+            steps {
+                echo 'This is Stage 3'
+            }
+        }
+    }
+    post {
+        always {
+            echo 'Pipeline completed.'
+        }
+    }
+}
